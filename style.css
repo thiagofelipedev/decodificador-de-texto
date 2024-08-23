@@ -1,0 +1,111 @@
+* {
+    background-color: #E5E5E5;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo-header {
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.texto-usuario {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: #0A3871; }
+    .texto-usuario:focus {
+        outline: none;
+    }   
+    
+.texto-criptografado {
+    background-color: #FFFFFF;
+    background-image: url(./assets/boneco.png), url(./assets/nenhuma-mensagem.png);
+    background-repeat: no-repeat;
+    background-position: 60px 20px, 15px 240px;
+    background-size: 210px 230px, auto;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.teste-boneco {
+    display: block;
+    margin-top: -1500px;
+}
+
+.texto-criptografado:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+    gap: 1em;
+}
+
+.botao-criptografar {
+    background-color: #0A3871;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.botao-descriptografar {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.botao-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 130px;
+    margin-top: 415px;
+    position: absolute;
+    width: 328px;
+    top: 85px;
+    left: 767px;
+}
+
+.informacao-caracteres {
+    color: #495057;
+    font-size: 18px;
+}
+
+.creditos-dev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+}
+
+.creditos-links {
+    width: 50px;
+}

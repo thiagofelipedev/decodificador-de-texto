@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador de Texto</title>
+</head>
+<body>
+    <header>
+            <img class="logo-header" src="./assets/alura-logo.png" alt="logotipo da alura">
+    </header>
+    <main>
+        <section>
+            <textarea class="texto-usuario" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+            <div class="informacao-caracteres">
+                <h6>Apenas letras minúsculas e sem acento.</h6>
+            </div>
+            <div class="botoes">
+                <button class="botao-criptografar" onclick="buttonCripto()">Criptografar</button>
+                <button class="botao-descriptografar" onclick="buttonDesCripto()">Descriptografar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="texto-criptografado" cols="20" rows="10"></textarea>
+            <button class="botao-copiar">Copiar</button>
+        </section>
+    </main>
+    <footer class="creditos-dev">
+        <h2>Desenvolvido por Thiago Felipe</h2>
+        <a href="https://github.com/thiagofelipedev">
+            <img class="creditos-links" src="./assets/github-logo.png" alt="Github">
+        </a>
+        <a href="https://www.linkedin.com/in/thiago-felipe-64bb96131/">
+            <img class="creditos-links" src="./assets/linkedin-logo.png" alt="Linkedin">
+        </a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
